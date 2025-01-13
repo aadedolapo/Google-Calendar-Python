@@ -68,11 +68,11 @@ To use this project, follow these steps:
    conda list
    ```
 
-2. Install the neccessary libraries by running the command below:
+3. Install the neccessary libraries by running the command below:
     ```bash
     pip install -r requirements.txt
     ```
-3. Add your PostgreSQL credentials in a pg_credentials.txt file:
+4. Add your PostgreSQL credentials in a pg_credentials.txt file:
    ```text
    hostname = 'your-host'
    database = 'your-db'
@@ -80,9 +80,9 @@ To use this project, follow these steps:
    pwd = 'your-password'
    port_id = 5432
    ```
-4. Add your Google API credentials in an api_credentials.json file by following the steps [here](https://medium.com/@ayushbhatnagarmit/supercharge-your-scheduling-automating-google-calendar-with-python-87f752010375).
+5. Add your Google API credentials in an api_credentials.json file by following the steps [here](https://medium.com/@ayushbhatnagarmit/supercharge-your-scheduling-automating-google-calendar-with-python-87f752010375).
 
-5. Launch the app using Streamlit:
+6. Launch the app using Streamlit:
     ```bash
     streamlit run app.py
     ```
